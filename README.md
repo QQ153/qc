@@ -1,6 +1,7 @@
 数组去重
-
-Array.prototype.unique = function(){
+可以这样试下
+		
+		Array.prototype.unique = function(){
 			var n ={} ,r = [];
 			for(var i=0;i<this.length;i++){
 				if(!n[this[i]]){
